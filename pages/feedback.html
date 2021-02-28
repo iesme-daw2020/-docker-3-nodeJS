@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comparte feedback!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1><a href="/">Mi Sitio</a></h1>
+    </header>
+    <main>
+      <section>
+        <h2>Tu Feedback</h2>
+        <form action="/create" method="POST">
+          <div class="form-control">
+            <label for="title">Título</label>
+            <input type="text" id="title" name="title" />
+          </div>
+          <div class="form-control">
+            <label for="text">Texto</label>
+            <textarea name="text" id="text" rows="10"></textarea>
+          </div>
+          <button>Guardar</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
